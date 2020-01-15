@@ -2,11 +2,10 @@
   "name": "makee",
   "version": "1.0.0",
   "description": "simple cli for creating files",
-  "main": "index.js",
+  "main": "./index.js",
   "author": "dbarabashdev",
   "license": "MIT",
   "bin": {
-    "makee-prettier": "./core/make-prettier.js",
-    "makee-gitignore": "./core/make-gitignore.js"
+    "makee-files": "./index.js"
   }
 }
